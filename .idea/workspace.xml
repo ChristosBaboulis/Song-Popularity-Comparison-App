@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="ListNode" />
+    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="ListForSongs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +28,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Input" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Top_k" />
+      <module name="Song Popularity Comparison App" />
+      <option name="PROGRAM_PARAMETERS" value="Songs.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659339178011</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ListForSongs">
+      <created>1659339877270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659339877270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,6 +85,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="ListNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListNode" />
+    <MESSAGE value="ListForSongs" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListForSongs" />
   </component>
 </project>
