@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="ListForSongs">
+    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="part 2">
+      <change afterPath="$PROJECT_DIR$/src/PQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Top_k_withPQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659339877270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rest of part 1">
+      <created>1659341377904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659341377904</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +95,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="ListNode" />
     <MESSAGE value="ListForSongs" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListForSongs" />
+    <MESSAGE value="rest of part 1" />
+    <MESSAGE value="part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 2" />
   </component>
 </project>
