@@ -73,12 +73,17 @@ public class Top_k_withPQ {
                 	}
                 }
             }
-            
+
             Song maxS;
-            System.out.print("The top "+k+" songs are:\n\n");
-            for(int i = 0; i < k; i++) {
-            	maxS = SongList.getMax();
-            	System.out.print(maxS);
+
+            if(k > SongList.size()) {
+                k = SongList.size();
+                System.out.println("Size longer than list, showing all list...\n");
+            }
+            System.out.print("The top " + k + " songs are:\n\n");
+            for (int i = 0; i < k; i++) {
+                maxS = SongList.getMax();
+                System.out.print(maxS);
             }
 
         }

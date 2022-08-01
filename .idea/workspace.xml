@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="part 2">
-      <change afterPath="$PROJECT_DIR$/src/PQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Top_k_withPQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="part 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +26,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Input" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.Input for Top k with PQ">
+    <configuration name="Input for Top k with PQ" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Top_k_withPQ" />
+      <module name="Song Popularity Comparison App" />
+      <option name="PROGRAM_PARAMETERS" value="Songs.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Input for Top k" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Top_k" />
       <module name="Song Popularity Comparison App" />
       <option name="PROGRAM_PARAMETERS" value="Songs.txt" />
@@ -39,6 +43,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Input for Top k" />
+      <item itemvalue="Application.Input for Top k with PQ" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659341377904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="part 2">
+      <created>1659350455090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659350455090</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
