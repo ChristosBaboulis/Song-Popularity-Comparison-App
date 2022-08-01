@@ -24,9 +24,9 @@ public class ListForSongs {
 	     return node;
      }
 		ListNode middle = middleNode(node);
-	    ListNode secondhalf = middle.next;
+	    ListNode secondHalf = middle.next;
 	    middle.next = null;
-		return merge(mergesort(node), mergesort(secondhalf));
+		return merge(mergesort(node), mergesort(secondHalf));
 	}
 
     public ListNode middleNode(ListNode node){
@@ -89,9 +89,8 @@ public class ListForSongs {
 		if(isEmpty()) {
 			throw new NoSuchElementException(name);
 		}
-		
-		Song returnedNode = firstNode.data;
-		return returnedNode;
+
+		return firstNode.data;
 	}
 
 	public void print()

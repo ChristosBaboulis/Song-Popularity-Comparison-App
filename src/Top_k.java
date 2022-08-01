@@ -9,18 +9,18 @@ public class Top_k {
 	public static void main(String[] args) {
 
 		String path= null;
-		String line = null;
+		String line;
 
-		File f = null;
-		FileReader fr = null;
+		File f;
+		FileReader fr;
 		BufferedReader br = null;
 
 		ListForSongs SongList = new ListForSongs();
-		Song song = new Song();
+		Song song;
 		Song top = new Song(0,999999999,"Aaaaa");
 		
 		if (0 < args.length) {
-			   path = new String(args[0]);
+			   path = args[0];
 			} else {
 			   System.err.println("Invalid arguments count:" + args.length);
 			   System.exit(1);
@@ -32,12 +32,12 @@ public class Top_k {
 			br = new BufferedReader(fr);
 			line = br.readLine();
 			
-			int indexFirstSpace = -1;
-			int indexSecondSpace = -1;
+			int indexFirstSpace;
+			int indexSecondSpace;
 			int indexSecondSpaceFinal = 0;
-			int ID = 0;
-			String Title = null;
-			int Likes = 0;
+			int ID;
+			String Title;
+			int Likes;
 			
 			while(line != null) {
 				indexFirstSpace = line.indexOf(" ");
@@ -62,8 +62,8 @@ public class Top_k {
 			SongList.get();
 
 			boolean flag = true;
-			int k = 0;
-			while(flag == true) {
+			int k;
+			while(flag) {
 				try {
 					System.out.println("Enter number of top songs you want to see: ");
 					Scanner in = new Scanner(System.in);
