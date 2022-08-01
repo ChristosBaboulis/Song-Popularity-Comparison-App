@@ -2,7 +2,7 @@
 USE:
 
 
-- This Java program takes as an input a list of sons with Id, Name, Likes and sorts and prints to the user the selected number of songs sorted by popularity using custom lists, merge sort method and custom priority queues.
+- This Java program takes as an input a list of songs with Id, Name, Likes and sorts and prints to the user the selected number of songs sorted by popularity using custom lists, merge sort method and custom priority queues.
 
 INFO:
 
