@@ -29,8 +29,14 @@ HOW TO RUN:
 
 Intellij: You have to pass the txt file as an argument on the main method: Run -> Edit Configurations -> + -> Application -> Give a name -> Give main class name (Top_k/Top_k_with_PQ) -> Give program arguments (Files\Songs.txt) -> OK File "Songs.txt" has to be in Files folder (outside of src file)
 
-CMD: "Songs.txt" file must be in same folder with Top_k.java/Top_k_with_PQ file
+CMD: "Songs.txt" file must be in src folder
 
 Go to java files folder through cmd navigation ( cd ) -> javac *.java -> java Top_k/Top_k_with_PQ Songs.txt
+
+
+![Screenshot_2](https://user-images.githubusercontent.com/48126722/182360632-bbea735c-9a20-4b06-8cf8-1dd2760d4b6b.png)
+
+
+![Screenshot_3](https://user-images.githubusercontent.com/48126722/182360639-a8706968-6143-41b2-ab3c-d38f5a4c7f0e.png)
 
 Running on: jdk-11.0.11
