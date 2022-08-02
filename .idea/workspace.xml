@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="part 1 warnings fixes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Songs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Songs2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SongsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListForSongs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/structures/ListForSongs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/objects/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/structures/PQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/objects/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Top_k.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/runnables/Top_k.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Top_k_withPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/runnables/Top_k_withPQ.java" afterDir="false" />
+    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="part 2 read (Scanner in) fixes, package creation">
+      <change beforePath="$PROJECT_DIR$/src/Songs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Songs2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SongsTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659350953215</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="part 2 read (Scanner in) fixes, package creation">
+      <created>1659426042990</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659426042990</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +145,7 @@
     <MESSAGE value="rest of part 1" />
     <MESSAGE value="part 2" />
     <MESSAGE value="part 1 warnings fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 1 warnings fixes" />
+    <MESSAGE value="part 2 read (Scanner in) fixes, package creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 2 read (Scanner in) fixes, package creation" />
   </component>
 </project>
