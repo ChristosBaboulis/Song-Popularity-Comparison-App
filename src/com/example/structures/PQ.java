@@ -47,6 +47,12 @@ public class PQ {
         return song;
     }
 
+    public Song Max() {
+        if (size == 0) throw new IllegalStateException();
+        Song song = heap[1];
+        return song;
+    }
+
     private void swim(int i) {
         while (i > 1) {
             int p = i / 2;
