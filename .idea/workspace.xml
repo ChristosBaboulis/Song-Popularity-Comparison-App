@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="part 2 read (Scanner in) fixes, package creation">
-      <change beforePath="$PROJECT_DIR$/src/Songs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Songs2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SongsTest.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="911f4160-3d1b-46ff-be54-d88234c3f218" name="Changes" comment="cmd prep" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659426042990</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cmd prep">
+      <created>1659438460266</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659438460266</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +149,7 @@
     <MESSAGE value="part 2" />
     <MESSAGE value="part 1 warnings fixes" />
     <MESSAGE value="part 2 read (Scanner in) fixes, package creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 2 read (Scanner in) fixes, package creation" />
+    <MESSAGE value="cmd prep" />
+    <option name="LAST_COMMIT_MESSAGE" value="cmd prep" />
   </component>
 </project>
