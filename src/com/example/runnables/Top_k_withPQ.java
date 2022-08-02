@@ -1,3 +1,8 @@
+package com.example.runnables;
+
+import com.example.objects.Song;
+import com.example.structures.PQ;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -15,18 +20,35 @@ public class Top_k_withPQ {
         BufferedReader br = null;
 
         Song song;
-        
-        System.out.println("Enter number of top songs you want to see: ");
-		Scanner in = new Scanner(System.in);
-		int k = in.nextInt();
-		in.close();
-		
+
+        int k = 0;
+        boolean flag = true;
+        while (flag){
+            try{
+                System.out.println("Enter number of top songs you want to see: ");
+                Scanner in = new Scanner(System.in);
+                k = in.nextInt();
+                while (k <= 0)
+                {
+                    //Scanner in = new Scanner(System.in);
+                    System.out.println("Invalid number, please enter a positive Integer: ");
+                    k = in.nextInt();
+                    //in.close();
+                }
+                flag = false;
+                in.close();
+            }catch (java.util.InputMismatchException e) {
+                System.err.println("No number inserted\n");
+                flag = true;
+            }
+        }
+
 		PQ SongList = new PQ(2*k);
 
         if (0 < args.length) {
             path = args[0];
         } else {
-            System.err.println("Invalid arguments count:" + args.length);
+            System.err.println("\nInvalid arguments count:" + args.length);
             System.exit(1);
         }
 
@@ -88,7 +110,7 @@ public class Top_k_withPQ {
 
         }
         catch (IOException e) {
-            System.err.println("Error opening file!");
+            System.err.println("Error opening file!"+k);
         }
 
         try {

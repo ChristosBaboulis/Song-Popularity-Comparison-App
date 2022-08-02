@@ -1,3 +1,6 @@
+package com.example.structures;
+import com.example.objects.Song;
+
 public class PQ {
 
     private Song[] heap;

@@ -1,4 +1,4 @@
-
+package com.example.objects;
 public class Song implements Comparable<Song>{
 	private int id, likes;
 	private String title;

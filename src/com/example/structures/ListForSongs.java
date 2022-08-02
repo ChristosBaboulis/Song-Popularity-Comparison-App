@@ -1,8 +1,14 @@
+package com.example.structures;
+
+import com.example.objects.Song;
+import com.example.objects.ListNode;
+
+import java.util.List;
 import java.util.NoSuchElementException;
 
 public class ListForSongs {
-	ListNode firstNode;
-	ListNode lastNode;
+	private ListNode firstNode;
+	private ListNode lastNode;
 	String name;
     	
 	public ListForSongs(){
@@ -20,12 +26,12 @@ public class ListForSongs {
 
 	public ListNode mergesort(ListNode node) {
 
-	 if (node == null || node.next == null){
+	 if (node == null || node.getNext() == null){
 	     return node;
      }
 		ListNode middle = middleNode(node);
-	    ListNode secondHalf = middle.next;
-	    middle.next = null;
+	    ListNode secondHalf = middle.getNext();
+	    middle.setNext(null);
 		return merge(mergesort(node), mergesort(secondHalf));
 	}
 
@@ -35,11 +41,11 @@ public class ListForSongs {
         }
 
         ListNode a = node;
-        ListNode b = node.next;
+        ListNode b = node.getNext();
 
-        while ((b != null) && (b.next != null)) {
-            a = a.next;
-            b = b.next.next;
+        while ((b != null) && (b.getNext() != null)) {
+            a = a.getNext();
+            b = b.getNext().getNext();
         }
 
         return a;
@@ -50,16 +56,16 @@ public class ListForSongs {
 		ListNode finalList = temp;
 		while ((a != null) && (b != null)) {
 			if (a.getSong().compareTo(b.getSong()) > 0) {
-				temp.next = a;
-				a = a.next;
+				temp.setNext(a);
+				a = a.getNext();
 			} else {
-				temp.next = b;
-				b = b.next;
+				temp.setNext(b);
+				b = b.getNext();
 			}
-			temp = temp.next;
+			temp = temp.getNext();
 		}
-		temp.next = (a == null) ? b : a;
-		return finalList.next; //return list without fake node
+		temp.setNext((a == null) ? b : a);
+		return finalList.getNext(); //return list without fake node
 	}
 
 	public void put( Song Item )
@@ -69,7 +75,7 @@ public class ListForSongs {
 		firstNode = lastNode = node;
 		}
 		else { 
-			node.next = firstNode;
+			node.setNext(firstNode);
 			firstNode = node;
 		}
 	}
@@ -78,11 +84,11 @@ public class ListForSongs {
 		if(isEmpty()) {
 			throw new NoSuchElementException(name);
 		}
-		Song removedNode = firstNode.data;
+		Song removedNodeData = firstNode.getSong();
 
-		firstNode = firstNode.next;
+		firstNode = firstNode.getNext();
 		
-		return removedNode;
+		return removedNodeData;
 	}
 
 	public Song peek() throws NoSuchElementException {
@@ -90,7 +96,15 @@ public class ListForSongs {
 			throw new NoSuchElementException(name);
 		}
 
-		return firstNode.data;
+		return firstNode.getSong();
+	}
+
+	public ListNode getFirstNode() {
+		return firstNode;
+	}
+
+	public ListNode getLastNode(){
+		return lastNode;
 	}
 
 	public void print()
@@ -106,8 +120,8 @@ public class ListForSongs {
 
 		while ( current != null )
 		{
-			System.out.printf( "%s ", current.data );
-			current = current.next;
+			System.out.printf( "%s ", current.getSong() );
+			current = current.getNext();
 		} 
 
 		System.out.println( "\n" );
@@ -123,7 +137,7 @@ public class ListForSongs {
 		while ( current != null )
 		{
 			i++;
-			current = current.next;
+			current = current.getNext();
 		}
 		return i;
 	}

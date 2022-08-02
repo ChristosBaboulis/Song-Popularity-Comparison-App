@@ -1,3 +1,8 @@
+package com.example.runnables;
+
+import com.example.structures.ListForSongs;
+import com.example.objects.Song;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -58,7 +63,7 @@ public class Top_k {
 				line = br.readLine();
 			}
 			SongList.put(top);
-			SongList.mergesort(SongList.firstNode);
+			SongList.mergesort(SongList.getFirstNode());
 			SongList.get();
 
 			boolean flag = true;
@@ -73,7 +78,7 @@ public class Top_k {
 						System.out.print("Invalid Number, list has "+SongList.size()+" songs: \n");
 					}
 					in.close();
-				} catch (java.util.InputMismatchException e) {
+				}catch (java.util.InputMismatchException e) {
 					System.err.println("No number inserted\n");
 					continue;
 				}
