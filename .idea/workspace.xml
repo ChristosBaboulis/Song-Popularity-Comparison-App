@@ -51,8 +51,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Input for Top k with PQ" />
       <item itemvalue="Application.Input for Top k" />
+      <item itemvalue="Application.Input for Top k with PQ" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
