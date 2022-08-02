@@ -27,7 +27,7 @@ Top_k_with_PQ which knows dynamically the top k selected songs up to the line th
 
 HOW TO RUN:
 
-Intellij: You have to pass the txt file as an argument on the main method: Run -> Edit Configurations -> + -> Application -> Give a name -> Give main class name (Top_k/Top_k_with_PQ) -> Give program arguments (Songs.txt) -> OK File "Songs.txt" has to be in project file (outside of src file)
+Intellij: You have to pass the txt file as an argument on the main method: Run -> Edit Configurations -> + -> Application -> Give a name -> Give main class name (Top_k/Top_k_with_PQ) -> Give program arguments (Files\Songs.txt) -> OK File "Songs.txt" has to be in Files folder (outside of src file)
 
 CMD: "Songs.txt" file must be in same folder with Top_k.java/Top_k_with_PQ file
 
