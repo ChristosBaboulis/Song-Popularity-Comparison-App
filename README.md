@@ -6,11 +6,11 @@ USE:
 - I also uses priority queues to find the median value of a queue dynamically
 - Runnables: 
  
-Top_k: Finds the top k songs from a list of songs (where k defined by input)
+- - Top_k: Finds the top k songs from a list of songs (where k defined by input)
 
-Top_k_with_PQ: Uses priority queues and finds in real time the top song from the list up to the line that it has read
+- - Top_k_with_PQ: Uses priority queues and finds in real time the top song from the list up to the line that it has read
 
-Dynamic_Median: Finds dynamically every 5 songs added to the list the median song sorted by popularity
+- - Dynamic_Median: Finds dynamically every 5 songs added to the list the median song sorted by popularity
 
 INFO:
 
